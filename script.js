@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Cientistas desenolveram uma tecnologia que conisteb em criaer novos órgãos a partir de células embrionárias. Qual o primeiro pensamento?",
+        enunciado: "Cientistas desenvolveram uma tecnologia que consiste em criar novos órgãos a partir de células embrionárias. Qual o seu primeiro pensamento?",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa descoberta pode fazer. "
+                afirmacao: "No início ficou com medo do que essa descoberta pode gerar. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber funciona o processo."
+                texto: "Isso é incrível!",
+                afirmacao: "Quis saber como funciona o processo."
             }
         ]
     },
@@ -45,28 +45,28 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Ao final da discussão, vocês precisaram chegar em um consenso. E agora?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Concordamos no ponto de vista a favor.",
+                afirmacao: "A maior parte da sala era a favor."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Concordamos no ponto de vista contra.",
+                afirmacao: "A maior parte da sala era contra."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você tem um trabalho em grupo de biologia sobre esse assunto para entregar na semana seguinte, e alguns integrantes do seu grupo vão contra a sua ideia. O que você faz? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Tento convencê-los de que minha opinião é a mais correta.",
+                afirmacao: "Uma única opinião é melhor para o desenvolvimento da atividade."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Tudo bem, cada um com o seu ponto de vista.",
+                afirmacao: "Os dois pontos de vista são válidos, e mostrar ambas opiniões enriquece o trabalho. "
             }
         ]
     },
