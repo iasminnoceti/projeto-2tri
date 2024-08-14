@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Cientistas desenolveram uma tecnologia que conisteb em criaer novos órgãos a partir de células embrionárias. Qual o primeiro pensamento?",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "No início ficou com medo do que essa descoberta pode fazer. "
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Quis saber funciona o processo."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Com a descoberta desta tecnologia, chamada CLonagem Terapêutica, uma professora de Biologia da escola decidiu fazer uma sequência de aulas sobre este estudo. No fim de uma aula ela pede que você escreva um trabalho sobre a sua perpectiva a respeito da clonagem. Qual a sua primeira opinião?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Escreve o trabalho com visão a favor, pois acredita que o uso das células embrionárias é inovador e pode salvar vidas",
+                afirmacao: "A favor, a clonagem pode ajudar muitas pessoas e progredir nas pesquisas para cura de doenças."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Escreve o trabalho com visão contra, pois acredita que o uso das células embrionárias tira a chance de outra vida se desenvolver",
+                afirmacao: "Contra, a clonagem é antiética e desrespeita a ordem natural da vida."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a clonagem terapêutica impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Defende a sua ideia de que a clonagem pode criar novas oportunidades de pesquisas na Medicina e melhorar a vida de muitos.",
+                afirmacao: "A favor, essa tecnologia deve se desenvolver."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Me preocupo com o desenvolvimento dessa tecnologia, pois não sabemos como a humanidade lidaria com ela.",
+                afirmacao: "Contra, tenho receio do que pode se criado com essa tecnologia."
             }
         ]
     },
